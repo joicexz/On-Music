@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+body {
+    background-image: url(img/image\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 17vh;
+    gap: 20px;
+}
+
+.intro h1 {
+    color: rgb(145, 40, 40);
+    font-size: 100px;
+}
+
+.intro p {
+    color: white;
+    font-size: 35px;
+    padding: 17px;
+    width: 870px;
+    text-align: justify;
+}
+
+.intro button {
+    background-color: rgb(145, 40, 40);
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50px;
+    width: 155px;
+    height: 60px;
+
+}
